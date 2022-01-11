@@ -13,7 +13,6 @@ import { SignOutButton } from './Buttons';
 
 dayjs.extend(localizedFormat);
 
-console.log(process.env);
 function App() {
   return (
     <GoogleAuthenticated
